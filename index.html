@@ -1,0 +1,649 @@
+<!DOCTYPE HTML>
+<!--
+	Portfolio of Sinoxolo Mpetsheni
+-->
+<html>
+
+<head>
+	<title>S Mpetsheni | Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/iconTitle.jpg" type="image/x-icon">
+</head>
+
+<body class="is-preload" style="background-image: url('images/background.jpg');">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<h1><a href="index.html">Sinoxolo Mpetsheni</a></h1>
+			<nav class="links">
+				<ul>
+					<li><a href="single.html">CV</a></li>
+					<li><a href="#bottom">About Me</a></li>
+					<li><a href="#bottom">Contact</a></li>
+
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- Menu -->
+		<section id="menu">
+
+			<!-- Search -->
+			<section>
+				<form class="search" method="get" action="#">
+					<input type="text" name="query" placeholder="Search" />
+				</form>
+			</section>
+
+			<!-- Links -->
+			<section>
+				<ul class="links">
+					<li>
+						<a href="single.html">
+							<h3>CV</h3>
+							<p>View my current CV</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>About Me</h3>
+							<p>Get to know me</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<h3>Contact</h3>
+							<p>You can reach me at here.</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+
+		</section>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<section id="intro">
+				<a href="#" class="logo" style="width: 200px; height: 200px;"><img src="images/mainIcon.jpg"
+					style="width: 205px; height: 205px" alt="" /></a>
+				<header>
+					<h2 style="color: aliceblue;">Sinoxolo Mpetsheni</h2>
+				</header>
+			</section>
+
+			<!-- Post = Project 1 -->
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2><a>SRC Voting System</a></h2>
+						<p>This is a desktop application built to assit with SRC Elections.</p>
+					</div>
+					<div class="meta">
+						<time class="published" datetime="2015-10-25">Technologies used</time>
+						<a class="author"><span class="name">Java</span><img src="images/javaIcon.png" alt="" /></a>
+						<a class="author"><span class="name">MS Access</span><img src="images/accessIcon.png"
+								alt="" /></a>
+					</div>
+				</header>
+				<a id="proj1" class="image featured"><img src="images/project1.png" alt="" /></a>
+				<p>This application allows registered users to login, and cast votes on their prefered SRC running
+					Candidates. This application also allows leaders from respective running organisations or parties to
+					add, update or remove participating candidates. I have achieved this by creating a database that
+					will hold information about the running canditates.</p>
+				<footer>
+					<ul class="actions">
+						<li><a href="https://github.com/Sinoxolo1408/Voting_System" target="_blank"
+								class="button large">see code</a></li>
+					</ul>
+					<!-- The Modal -->
+					<div id="myModal1" class="modal1">
+						<!-- Modal content -->
+						<div class="modal-content1">
+							<span class="close1">&times;</span>
+							<h2>Voting Application</h2>
+							<table>
+								<td style="float: left;">
+									<div class="SlideShow" style="float: left;">
+										<img class="slideshow" src="images/slide/b1.png" width="400" height="350"
+											alt="">
+										<img class="slideshow" src="images/slide/b2.png" width="400" height="350"
+											alt="">
+										<img class="slideshow" src="images/slide/b3.png" width="400" height="350"
+											alt="">
+										<img class="slideshow" src="images/slide/b4.png" width="400" height="350"
+											alt="">
+										<img class="slideshow" src="images/slide/b5.png" width="400" height="350"
+											alt="">
+										<img class="slideshow" src="images/slide/b6.png" width="400" height="350"
+											alt="">
+
+										<button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+										<button class="display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+										<script>
+											var slideIndex1 = 1;
+											showDivs(slideIndex1);
+
+											function plusDivs(n) {
+												showDivs(slideIndex1 += n);
+											}
+
+											function showDivs(n) {
+												var i;
+												var x = document.getElementsByClassName("slideshow");
+												if (n > x.length) { slideIndex1 = 1 }
+												if (n < 1) { slideIndex1 = x.length };
+												for (i = 0; i < x.length; i++) {
+													x[i].style.display = "none";
+												}
+												x[slideIndex1 - 1].style.display = "block";
+											}
+										</script>
+									</div>
+									<div class="TechUsed">
+										<h3>Technologies Used</h3>
+										<ul>
+											<li>Java</li>
+											<li>SQL</li>
+											<li>MS Access</li>
+										</ul>
+									</div>
+								</td>
+								<td style="float: right;">
+									<div class="MyRole">
+										<h3>My Role</h3>
+										<ul style="font-size: 13px;">
+											<li>Designed and built the user interface.</li>
+											<li>Built a local version of the database.</li>
+											<li>Connected the database to the application.</li>
+										</ul>
+									</div>
+									<div class="Difficulties">
+										<h3>Project Difficulties</h3>
+										<ul style="font-size: 13px;">
+											<li>The constant changing of Requirements was the major reason behind the <br> 
+												complexity of the project.</li>
+										</ul>
+									</div>
+									<div class="Solution">
+										<h3>The Solution</h3>
+										<ul style="font-size: 13px;">
+											<li>My team and I had to define and agree on the scope of the project.</li>
+											<li>We decided to involve the users and consider UX from the start.</li>
+											<li>Confirmed the understanding of the requirements and then created a clear, consice
+											<br>and thorough requirements document.</li>
+											<li>Created a prototype to confirm and refine final agreed-upon requirements.</li>
+										</ul>
+									</div>		
+									<div class="Features">
+										<h3>Notable Features</h3>
+										<ul style="font-size: 13px;">
+											<li>Login for different user types</li>
+											<li>Adding, removing running candidates to the ballet</li>
+											<li>Updating running canditates information</li>
+											<li>Choosing canditates and casting votes</li>
+											<li>Determing the result of the elections</li>
+										</ul>
+									</div>
+								</td>
+							</table>
+						</div>
+					</div>
+
+					<!-- Modal Script -->
+					<script>
+						// Get the modal
+						var modal1 = document.getElementById("myModal1");
+
+						// Get the button that opens the modal
+						var btn1 = document.getElementById("proj1");
+
+						// Get the <span> element that closes the modal
+						var span1 = document.getElementsByClassName("close1")[0];
+
+						// When the user clicks on the button, open the modal
+						btn1.onclick = function () {
+							modal1.style.display = "block";
+						}
+
+						// When the user clicks on <span> (x), close the modal
+						span1.onclick = function () {
+							modal1.style.display = "none";
+						}
+
+						// When the user clicks anywhere outside of the modal, close it
+						window1.onclick = function (event) {
+							if (event.target == modal1) {
+								modal1.style.display = "none";
+							}
+						}
+					</script>
+					<!-- End of Script-->
+
+				</footer>
+			</article>
+
+
+			<!-- Post = Project 2 -->
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2><a>Information management application</a></h2>
+						<p>This is a desktop application built to help manage important records of an Non-profit organisation.
+						</p>
+					</div>
+					<div class="meta">
+						<time class="published" datetime="2015-10-25">Technologies used</time>
+						<a class="author"><span class="name">Java</span><img src="images/javaIcon.png" alt="" /></a>
+						<a class="author"><span class="name">MS Access</span><img src="images/accessIcon.png"
+								alt="" /></a>
+					</div>
+				</header>
+				<a id="proj2" class="image featured"><img src="images/project2.png" alt="" /></a>
+				<p>This application allows administrators of the organisation to enter and store information about their
+					volunteers and sponsors. The application is mainly designed to keep and manage records of the
+					children cared for by the organisation. The application makes use of database to store the records.
+					The application makes it is easy for the user to access, modify or remove necessary information from
+					the database.
+				</p>
+
+				<!-- The Modal -->
+				<div id="myModal2" class="modal2">
+					<!-- Modal content -->
+					<div class="modal-content2">
+						<span class="close2">&times;</span>
+						<h2>Information Management System</h2>
+						<table>
+							<td style="float: left;">
+								<div class="SlideShow2" style="float: left;">
+									<img class="slideshow2" src="images/slide/1.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/2.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/3.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/4.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/5.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/6.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/7.png" width="400" height="330" alt="">
+									<img class="slideshow2" src="images/slide/8.png" width="400" height="330" alt="">
+
+
+									<button class="display-left" onclick="plusDivs2(-1)">&#10094;</button>
+									<button class="display-right" onclick="plusDivs2(+1)">&#10095;</button>
+
+									<!---->
+									<script>
+										var slideIndex2 = 1;
+										showDivs2(slideIndex2);
+
+										function plusDivs2(n2) {
+											showDivs2(slideIndex2 += n2);
+										}
+
+										function showDivs2(n2) {
+											var j;
+											var x2 = document.getElementsByClassName("slideshow2");
+											if (n2 > x2.length) { slideIndex2 = 1 }
+											if (n2 < 1) { slideIndex2 = x2.length };
+											for (j = 0; j < x2.length; j++) {
+												x2[j].style.display = "none";
+											}
+											x2[slideIndex2 - 1].style.display = "block";
+										}
+									</script>
+								</div>
+								<div class="TechUsed">
+									<h3>Technologies Used</h3>
+									<ul>
+										<li>Java</li>
+										<li>SQL</li>
+										<li>MS Access</li>
+									</ul>
+								</div>
+							</td>
+							<td style="float: right;">
+								<div class="MyRole">
+									<h3>My Role</h3>
+									<ul>
+										<li>Designed and built the user interface.</li>
+										<li>Built a local version of the database.</li>
+										<li>Connected the database to the application.</li>
+									</ul>
+								</div>
+								<div class="Difficulties">
+									<h3>Project Difficulties</h3>
+									<ul>
+										<li>Time Estimation</li>
+										<li>Underestimated project difficulty</li>
+									</ul>
+								</div>
+								<div class="Solution">
+									<h3>Solution</h3>
+									<ul style="font-size: 13.5px;">
+										<li>Broken down tasks to mini tasks so that the workload was not overwhelming</li>
+										<li>Timed myself appropriately - given each task a time frame for completion <br> 
+											but also included buffer time.
+											This meant giving 30 minutes to 20 minutes tasks <br>
+											 incase of any disturbance or circumstances that may occur.
+										</li>
+									</ul>
+								</div>				
+								<div class="Features">
+									<h3>Notable Features</h3>
+									<ul style="font-size: 13.5px;">
+										<li>Login for different user types</li>
+										<li>Adding, removing children, volunteers and sponsors to the system
+										</li>
+										<li>Updating information</li>
+										
+									</ul>
+								</div>
+							</td>
+						</table>
+					</div>
+				</div>
+				<script>
+					// Get the modal
+					var modal2 = document.getElementById("myModal2");
+
+					// Get the button that opens the modal
+					var btn2 = document.getElementById("proj2");
+
+					// Get the <span> element that closes the modal
+					var span2 = document.getElementsByClassName("close2")[0];
+
+					// When the user clicks on the button, open the modal
+					btn2.onclick = function () {
+						modal2.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span2.onclick = function () {
+						modal2.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function (event2) {
+						if (event2.target == modal2) {
+							modal2.style.display = "none";
+						}
+					}
+				</script>
+
+				<footer>
+					<ul class="actions">
+						<li><a href="https://github.com/Sinoxolo1408/ManagementSystem" target="_blank"
+								class="button large">See Code</a></li>
+					</ul>
+				</footer>
+			</article>
+
+
+			<!-- Post Project 3 -->
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2><a>Online purchase prediction</a></h2>
+						<p>This is an application built to predict whether a customer will make a purchase when online
+							shopping.</p>
+					</div>
+					<div class="meta">
+						<time class="published" datetime="2015-10-22">Technologies used</time>
+						<a class="author"><span class="name">Python</span><img src="images/pythonIcon.png" alt="" /></a>
+						<a class="author"><span class="name">Jupyter</span><img src="images/jupyterIcon.png"
+								alt="" /></a>
+						<a class="author"><span class="name">Java</span><img src="images/javaIcon.png" alt="" /></a>
+					</div>
+				</header>
+				<a id="proj3" class="image featured"><img src="images/project3.png" alt="" /></a>
+				<p>The prediction of whether or not a customer will eventually make a purchase while using an online
+					shopping portal is made based on the pattern of pages visited on the website by the customer, along
+					with certain analytical features, the time of the week and year and other features. Machine learning
+					tacniques such as Logistic regression, Neural Networks and Support vector machines are used together
+					to produce the best prediction.</p>
+				<footer>
+					<ul class="actions">
+						<li><a href="https://github.com/Sinoxolo1408/OPP_System" target="_blank"
+								class="button large">See code</a></li>
+					</ul>
+
+					<!-- Trigger/Open The Modal -->
+					<!-- The Modal -->
+					<div id="myModal3" class="modal3">
+
+						<!-- Modal content -->
+						<div class="modal-content3">
+							<span class="close3">&times;</span>
+							<h2>Purchase Prediction Software</h2>
+							<table>
+								<td style="float: left;">
+									<div class="SlideShow">
+										<img id="slide-images" class="slideshow3" src="images/slide/c1.png" width="400" height="350"
+											alt="">
+										<img id="slide-images" class="slideshow3" src="images/slide/c2.png" alt="">
+
+										<button class="display-left" onclick="plusDivs3(-1)">&#10094;</button>
+										<button class="display-right" onclick="plusDivs3(+1)">&#10095;</button>
+
+										<script>
+											var slideIndex = 1;
+											showDivs3(slideIndex);
+
+											function plusDivs3(n) {
+												showDivs3(slideIndex += n);
+											}
+
+											function showDivs3(n) {
+												var i;
+												var x = document.getElementsByClassName("slideshow3");
+												if (n > x.length) { slideIndex = 1 }
+												if (n < 1) { slideIndex = x.length };
+												for (i = 0; i < x.length; i++) {
+													x[i].style.display = "none";
+												}
+												x[slideIndex - 1].style.display = "block";
+											}
+										</script>
+									</div>
+									<div class="TechUsed">
+										<h3>Technologies Used</h3>
+										<ul>
+											<li>Python</li>
+											<li>Jupyter</li>
+										</ul>
+									</div>
+								</td>
+								<td style="float: right;">
+									<div class="MyRole">
+										<h3>My Role</h3>
+										<ul>
+											<li>Working with Logistic regression</li>
+											<li>Designed and built the user interface</li>
+											<li>Attended weakly team meatings.</li>
+											<li>Presented to a panel of judges</li>
+										</ul>
+									</div>
+									<div class="Difficulties">
+										<h3>Project Difficulties</h3>
+										<ul>
+											<li>Lack of understanding the technology(Machine Learning)</li>
+											<li>Finishing on time</li>
+											<li>Combining different team member's code <br> (Not understanding each other's code)</li>
+										</ul>
+									</div>
+									<div class="Solution">
+										<h3>Solution</h3>
+										<ul>
+											<li>Dedicated more and more time to research, prototyping <br> and development testing</li>
+											<li>Included time to demo each member's work during weekly meetings</li>
+										</ul>
+									</div>
+									<div class="Features">
+										<h3>Notable Features</h3>
+										<ul>
+											<li>Predicting whether a customer will eventually make a purchase <br> in three different techniques.</li>
+										</ul>
+									</div>
+								</td>
+							</table>
+						</div>
+					</div>
+
+					<script>
+						// Get the modal
+						var modal3 = document.getElementById("myModal3");
+
+						// Get the button that opens the modal
+						var btn3 = document.getElementById("proj3");
+
+						// Get the <span> element that closes the modal
+						var span3 = document.getElementsByClassName("close3")[0];
+
+						// When the user clicks on the button, open the modal
+						btn3.onclick = function () {
+							modal3.style.display = "block";
+						}
+
+						// When the user clicks on <span> (x), close the modal
+						span3.onclick = function () {
+							modal3.style.display = "none";
+						}
+
+						// When the user clicks anywhere outside of the modal, close it
+						window.onclick = function (event3) {
+							if (event3.target == modal3) {
+								modal3.style.display = "none";
+							}
+						}
+					</script>
+
+				</footer>
+			</article>
+		</div>
+
+		<!-- Sidebar -->
+		<section id="sidebar">
+
+			
+
+			<!-- Mini Posts -->
+			<section>
+				<div class="mini-posts">
+
+					<!-- Mini Post -->
+					<article class="mini-post">
+						<header>
+							<h3><a href="https://github.com/Sinoxolo1408/dvdRenting/tree/master" target="_blank">DVD
+									Renting System</a></h3>
+							<time class="published" datetime="2015-10-20">This application is built to help a DVD
+								renting store keep track of their DVD's and manage the store.</time>
+							<a class="author"><img src="images/javaIcon.png" alt="" /></a>
+						</header>
+						<a class="image"><img src="images/project4.png" alt="" /></a>
+					</article>
+
+					<!-- Mini Post -->
+					<article class="mini-post">
+						<header>
+							<h3><a href="https://github.com/Sinoxolo1408/Path_Finding_Visualization"
+									target="_blank">Path finding Visualization</a></h3>
+							<time class="published" datetime="2015-10-19">This is a desktop application built for
+								finding and displaying the shortest path between two points.</time>
+							<a class="author"><img src="images/pythonIcon.png" alt="" /></a>
+						</header>
+						<a class="image"><img src="images/project5.png" alt="" /></a>
+					</article>
+
+					<!-- Mini Post -->
+					<article class="mini-post">
+						<header>
+							<h3><a href="https://github.com/Sinoxolo1408/Travel_Website/tree/master"
+									target="_blank">Travel Agency Website</a></h3>
+							<time class="published" datetime="2015-10-18">This is a prototype website of a travel
+								Agency, and it is built to show travel options and their cost.</time>
+
+							<a class="author"><img src="images/cssIcon.png" alt="" /></a>
+						</header>
+						<a class="image"><img src="images/project6.png" alt="" /></a>
+					</article>
+
+					<!-- Mini Post -->
+					<article class="mini-post">
+						<header>
+							<h3><a href="https://github.com/Sinoxolo1408/ArchitectWebsite" target="_blank">Architecture
+									Website</a></h3>
+							<time class="published" datetime="2015-10-17">This is a prototype website of a An
+								Architecture Company, and it is built to get to know the company, the team and the
+								pricing on a building project.</time>
+							<a class="author"><img src="images/cssIcon.png" alt="" /></a>
+						</header>
+						<a class="image"><img src="images/project8.png" alt="" /></a>
+					</article>
+
+				</div>
+			</section>
+
+
+
+			<!-- About -->
+			<section class="blurb" id="bottom">
+				<h1 style="color: aliceblue; text-align:center; font-size: 28px;">About</h1>
+				<p style="color: aliceblue; font-size: 20px;">I am a solution-orientated developer with a strong
+					foundation of software development life cycle, project management principles and the design
+					thinking
+					process. I am proficient in a number of languages and platforms, with an ability and eagerness
+					to
+					learn new technologies and skills. I have a solid knowledge of databases, common data structures
+					and
+					algorithms. <br>
+				</p>
+				<p style="color: aliceblue; font-size: 24px;">Some of my skills include;</p>
+				<ul style="color: aliceblue; font-size: 20px;">
+					<li>Working knowledge of fundamental networking principles</li>
+					<li>The ability to work well within a team</li>
+					<li>Good knowledge of working with version control tools such as Git.</li>
+					<li>Working knowledge of unit testing</li>
+					<li>Exposure to the Spring Boot Framework</li>
+					<li>Exposure to Django</li>
+					<li>Good understanding of Maven</li>
+					<li>Good understanding of containerization</li>
+				</ul>
+			</section>
+
+
+			<!-- Footer -->
+			<section id="footer">
+				<h1 style="color: aliceblue; text-align:center; font-size: 28px;">Contact</h1>
+				<div>
+					<ul class="icons" style="text-align:center">
+						<li><a href="https://linkedin.com/in/Sinoxolo-mpetsheni-063027a0" target="_blank"
+								class="icon brands fa-linkedin" style="font-size:36px; color: azure;"><span
+									class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/sinoxolo1408" target="_blank" class="icon brands fa-github"
+								style="font-size:36px; color: azure;"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:sinoxolompetsheni@gmail.com" class="icon solid fa-envelope"
+								style="font-size:36px; color: azure;"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</section>
+
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
